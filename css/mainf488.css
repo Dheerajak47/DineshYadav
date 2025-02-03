@@ -1,4 +1,4 @@
- .col.form-last-submit-btn button.btn.btn-primary a {
+ .col.form-last-submit-btn a {
   border-width: 2px;
   font-weight: 400;
   font-size: 0.8571em;
@@ -11,7 +11,7 @@
   color: #fff;
   font-size: 18px;
   text-decoration: none;
-  background: linear-gradient(97deg, #fa5252, #dd2476) !important;
+  background: linear-gradient(97deg, #20275a, #0b1038) !important;
 }
 
 .col.form-last-submit-btn button.btn.btn-primary {
@@ -1088,19 +1088,19 @@
   margin-left: -5px;
   margin-right: -5px; }
 
-.btn,
-.navbar .navbar-nav > a.btn {
-  border-width: 2px;
-  font-weight: 400;
-  font-size: 0.8571em;
-  line-height: 1.35em;
-  margin: 5px 1px;
-  border: none;
-  border-radius: 0.1875rem;
-  padding: 11px 22px;
-  cursor: pointer;
-      background: linear-gradient(97deg, #fa5252, #dd2476) !important;
-  color: #FFFFFF; }
+  .btn, .navbar .navbar-nav > a.btn {
+    border-width: 2px;
+    font-weight: 400;
+    font-size: 0.8571em;
+    line-height: 1.35em;
+    margin: 5px 1px;
+    border: none;
+    border-radius: 0.1875rem;
+    padding: 11px 22px;
+    cursor: pointer;
+    background: linear-gradient(97deg, #20275a, #0b1038) !important;
+    color: #FFFFFF;
+}
   .btn:hover, .btn:focus, .btn:active, .btn.active, .btn:active:focus, .btn:active:hover, .btn.active:focus, .btn.active:hover,
   .show > .btn.dropdown-toggle,
   .show > .btn.dropdown-toggle:focus,
@@ -2019,7 +2019,7 @@ textarea.form-control {
     margin-top: 14px; }
     .progress-container .progress .progress-bar {
       box-shadow: none;
-          background: linear-gradient(97deg, #fa5252, #dd2476) !important; }
+      background: linear-gradient(97deg, #20275a, #0b1038) !important; }
     .progress-container .progress .progress-value {
       position: absolute;
       top: 2px;
@@ -2398,7 +2398,7 @@ body {
     color: linear-gradient(97deg, #fa5252, #dd2476); }
 
 .nav-pills.nav-pills-primary .nav-item .nav-link.active, .nav-pills.nav-pills-primary .nav-item .nav-link.active:focus, .nav-pills.nav-pills-primary .nav-item .nav-link.active:hover {
-  background: linear-gradient(97deg, #fa5252, #dd2476); }
+  background: linear-gradient(97deg, #20275a, #0b1038); }
 
 .nav-pills.nav-pills-info .nav-item .nav-link.active, .nav-pills.nav-pills-info .nav-item .nav-link.active:focus, .nav-pills.nav-pills-info .nav-item .nav-link.active:hover {
   background-color: #2CA8FF; }
@@ -2594,7 +2594,7 @@ body {
   background-color: #888 !important; }
 
 .bg-primary {
-  background: linear-gradient(97deg, #fa5252, #dd2476) !important; }
+  background: linear-gradient(97deg, #20275a, #0b1038) !important; }
 
 .bg-info {
   background-color: #2CA8FF !important; }
@@ -4136,7 +4136,7 @@ Created using IcoMoon - icomoon.io
     transform: translate3d(300px, 0, 0);
     transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1); }
     .sidebar-collapse .navbar-collapse:before {
-      background: linear-gradient(97deg, #fa5252, #dd2476);
+      background: linear-gradient(270deg, #20275a, #0b1038) !important;
       /* For browsers that do not support gradients */
       /* For Safari 5.1 to 6.0 */
       /* For Opera 11.1 to 12.0 */
@@ -5123,12 +5123,8 @@ Created using IcoMoon - icomoon.io
 /* Profile Page Background Style */
 .page-header {
   background: rgba(44, 44, 44, 0.2);
-  /* For browsers that do not support gradients */
-  /* For Safari 5.1 to 6.0 */
-  /* For Opera 11.1 to 12.0 */
-  /* For Firefox 3.6 to 15 */
-  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(55, 140, 63, 0.6));
-  /* Standard syntax */ }
+  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgb(27 31 80));
+}
   .page-header .btn {
     width: 140px; }
 
@@ -5157,7 +5153,7 @@ Created using IcoMoon - icomoon.io
 
 .cc-profile-image a:before {
   content: "";
-  border: 15px solid rgb(227 50 112);
+  border: 15px solid rgb(101 108 146);
   border-radius: 50%;
   height: 180px;
   width: 180px;
@@ -5299,4 +5295,9 @@ a.credit {
       margin: 30px 0 10px;
       font-size: 22px;
   }
+  .mobile-project-responsive .col-md-3 {
+    width: 50%;
+    padding: 0 6px;
+}
+
   }
